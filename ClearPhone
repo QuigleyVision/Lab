@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Defaulting an Avaya 96XX IP Phone</title>
+</head>
+<body>
+  <h1> Clearing an 96XX Avaya IP Phone</h1>
+  <p>Basic steps are going to be first resetting the phone to get to the * to Program menu and entering in a key sequence to access the administration menu of the phone</p>
+  <a href="https://downloads.avaya.com/css/P8/documents/101009361" target="_blank">Full Administration Guide Here</a>
+  <ol>
+    <li>Restart the phone (Just unplug the top cord and plug it back in)</li>
+    <li>Watch the screen and after the loading bar you will see<br /> * to program (Press * when you see this prompt)</li>
+    <li>It will ask for a code which is 27238#</li>
+    <li>Arrow down to Clear and Press Start</li>
+    <li>Press Clear again to confirm</li>
+    <li>At this point the phone will reboot</li>
+    <p>The phone will now come up with factory default settings and if you need to enter any static informaiton in the phone you will need to interupt the boot process by pressing * to program again. If you were not instructed to enter anything just let the phone come up</p>
+<!--The following is not needed but just for viewing a picture of the most common phone -->    
+<a href="https://downloads.avaya.com/css/P8/documents/101009361" target=" _blank"><img src="http://marketingtools.avaya.com/knowledgebase/user/ipoffice/mergedProjects/9600user/9611%20annotated.zoom60.png" alt="Avaya 9608"/></a>
+    
+
+</body> 
+</html>
